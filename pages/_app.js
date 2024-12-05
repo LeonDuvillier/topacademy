@@ -26,6 +26,7 @@ import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCa
 import Product from '../components/specificComponents/Product/Product';
 import Location from '../components/specificComponents/Location/Location';
 import activities from '../components/specificComponents/activities/activities';
+import accomodations from '../components/specificComponents/accomodations/accomodations';
 
 
 const components = {
@@ -48,6 +49,7 @@ const components = {
   product: Product,
   location: Location,
   activities: activities
+  accomodations: accomodations
 };
 
 storyblokInit({
