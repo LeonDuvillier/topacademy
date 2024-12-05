@@ -49,7 +49,7 @@ const components = {
   product: Product,
   location: Location,
   activities: activities
-  accomodations: accomodations
+  accommodations: accommodations,
 };
 
 storyblokInit({

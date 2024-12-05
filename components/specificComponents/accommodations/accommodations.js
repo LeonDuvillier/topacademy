@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import css from "./accomodations.module.scss";
+import css from "./accommodations.module.scss";
 import Headermenu from "../../genericComponents/Headermenu/Headermenu";
 import Hero from "../../genericComponents/Hero/Hero";
 import { storyblokEditable, StoryblokComponent } from "@storyblok/react";
 import { RichTextToHTML } from "../../../functions/storyBlokRichTextRenderer";
 import List from "../../genericComponents/List/List";
 
-export default class accomodations extends Component {
+export default class accommodations extends Component {
 
 	constructor(props) {
 		super(props);
@@ -19,10 +19,10 @@ export default class accomodations extends Component {
 
 				<main>
 					<Hero blok={this.props.blok} contentTypeTag="course" />
-					<div className={css["accomodations-page__main-content"]}>
-						<div id="accomodations-page__short-description" key="accomodations-page__short-description" className={css["accomodations-page__short-description"]}>
+					<div className={css["accommodations-page__main-content"]}>
+						<div id="accommodations-page__short-description" key="accommodations-page__short-description" className={css["accommodations-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-							<h2 className={css["rich-text-section__title"]}>accomodations Details</h2>
+							<h2 className={css["rich-text-section__title"]}>accommodations Details</h2>
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
 						</div>
