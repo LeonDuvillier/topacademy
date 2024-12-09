@@ -15,7 +15,10 @@ export default function Page({ story, preview, socialtags, menu }) {
       "list.elements",
       "location.colorcode",
       "accommodation.location",
-      "location.accommodations"
+      "location.accommodations",
+      "accommodations.activities",
+      "activities.colorcode",
+      "activities.location"
     ]
   }, preview);
 
@@ -43,7 +46,10 @@ export async function getStaticProps({ params }) {
       "course.locations",
       "list.elements",
       "accommodation.location",
-      "location.accommodations"
+      "location.accommodations",
+      "accommodations.activities",
+      "activities.colorcode",
+       "activities.location"
 
     ]
   };
