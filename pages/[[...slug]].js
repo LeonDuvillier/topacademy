@@ -48,7 +48,6 @@ export async function getStaticProps({ params }) {
       "location.accommodations",
       "accommodations.activities",
       "activities.location"
-
     ]
   };
 
