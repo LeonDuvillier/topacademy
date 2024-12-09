@@ -5,6 +5,7 @@
 .location-page {
 
   &__main-content {
+    background-color: blanchedalmond;
     display: grid;
     grid-template-columns: 0 auto;
     max-width: 1440px;
@@ -28,6 +29,7 @@
   .location-page {
 
     &__main-content {
+      background-color: beige;
       grid-template-columns: auto 552px auto;
       max-width: none;
     }

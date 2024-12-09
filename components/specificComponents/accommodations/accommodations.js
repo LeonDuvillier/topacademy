@@ -26,7 +26,13 @@ export default class accommodations extends Component {
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
 						</div>
+						{this.props.blok.locationss && this.props.blok.locations.map((location) => (
+							<Element blok={this.props.blok.locations} key={location.uid} />
+							))}
 					</div>
+					{this.props.blok.additionalstuff.map((nestedBlok) => (
+							<StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
+						))}
 				</main>
 			</div>
 		);
