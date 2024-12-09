@@ -29,6 +29,7 @@ import activities from '../components/specificComponents/activities/activities';
 import accommodations from '../components/specificComponents/accommodations/accommodations';
 
 
+
 const components = {
   person: Teacher,
   experience: Experience,
