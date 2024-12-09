@@ -17,6 +17,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "accommodation.location",
       "location.accommodations",
       "accommodations.activities",
+      "activities.colorcode",
       "activities.location"
     ]
   }, preview);
@@ -47,7 +48,9 @@ export async function getStaticProps({ params }) {
       "accommodation.location",
       "location.accommodations",
       "accommodations.activities",
-      "activities.location"
+      "activities.colorcode",
+       "activities.location"
+
     ]
   };
 
@@ -112,3 +115,4 @@ export async function getStaticPaths() {
     paths: paths,
     fallback: 'blocking'
   };
+}
