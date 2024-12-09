@@ -105,7 +105,7 @@ export async function getStaticPaths() {
       return;
     }
 
-    const slug = data.links[Key].slug;
+    const slug = data.links[linkKey].slug;
     let splittedSlug = slug.split("/");
 
     paths.push({ params: { slug: splittedSlug } });
