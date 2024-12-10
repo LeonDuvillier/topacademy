@@ -16,11 +16,5 @@ module.exports = {
 		});
 		return config;
 	}
-	module.exports = {
-		exportPathMap: async function (defaultPathMap) {
-		  delete defaultPathMap['/courses/business-analysis-foundations-an-all-inclusive-course'];
-		  return defaultPathMap;
-		},
-	  };
 	  
 };
