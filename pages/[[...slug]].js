@@ -17,8 +17,6 @@ export default function Page({ story, preview, socialtags, menu }) {
       "accommodation.location",
       "location.accommodations",
       "accommodations.activities",
-      "activities.colorcode",
-      "activities.location"
     ]
   }, preview);
 
