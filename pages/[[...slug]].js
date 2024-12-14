@@ -29,8 +29,6 @@ export default function Page({ story, preview, socialtags, menu }) {
     </>
   );
 }
-
-
 export async function getStaticProps({ params }) {
   let slug = params.slug ? params.slug.join("/") : "home";
 
