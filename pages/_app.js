@@ -2,7 +2,7 @@ import '../styles/globals.css'
 
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 
-import { useEffect } from "react"
+import { useState, useEffect } from "react"
 import { useRouter } from "next/router"
 
 
