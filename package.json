@@ -12,7 +12,6 @@
     "cleanup": "rm -rf .next"
   },
   "dependencies": {
-    "@hotjar/browser": "^1.0.9",
     "@storyblok/react": "^1.0.8",
     "@svgr/webpack": "^6.3.1",
     "concurrently": "^7.3.0",
@@ -22,10 +21,10 @@
     "lodash": "^4.17.21",
     "next": "^12.1.6",
     "pure-react-carousel": "^1.29.0",
-    "react": "^18.2.0",
+    "react": "18.2.0",
     "react-carousel": "^4.3.0",
     "react-collapsible": "^2.10.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "18.2.0",
     "react-hotjar": "^5.2.0",
     "react-lottie-player": "^1.4.3",
     "react-player": "^2.10.1",
