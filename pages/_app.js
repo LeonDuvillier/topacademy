@@ -2,8 +2,8 @@ import '../styles/globals.css'
 
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import { useEffect } from "react"
+import { useRouter } from "next/router"
 
 
 import Person from "../components/specificComponents/Person/Person";
