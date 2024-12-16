@@ -15,5 +15,8 @@ module.exports = {
 			use: ["@svgr/webpack"]
 		});
 		return config;
+		experimental: {
+			appDir: false,
+		  },
 	}
 };
