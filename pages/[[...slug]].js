@@ -12,7 +12,13 @@ export default function Page({ story, preview, socialtags, menu }) {
       "product.colorcode",
       "course.teachers",
       "course.locations",
-      "list.elements"
+      "list.elements",
+      "location.colorcode",
+      "accommodation.location",
+      "location.accommodations",
+      "accommodations.activities",
+      "activities.colorcode",
+      "activities.location"
     ]
   }, preview);
 
@@ -23,8 +29,6 @@ export default function Page({ story, preview, socialtags, menu }) {
     </>
   );
 }
-
-
 export async function getStaticProps({ params }) {
   let slug = params.slug ? params.slug.join("/") : "home";
 
@@ -38,7 +42,13 @@ export async function getStaticProps({ params }) {
       "product.colorcode",
       "course.teachers",
       "course.locations",
-      "list.elements"
+      "list.elements",
+      "accommodation.location",
+      "location.accommodations",
+      "accommodations.activities",
+      "activities.colorcode",
+       "activities.location"
+
     ]
   };
 
