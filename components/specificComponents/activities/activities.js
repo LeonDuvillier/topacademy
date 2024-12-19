@@ -28,7 +28,7 @@ export default class activities extends Component {
 							</section>
 						</div>
 					</div>
-					{this.props.blok.additionalstuff.map((nestedBlok) => (
+					{this.props.blok.additionalstuff && this.props.blok.additionalstuff.map((nestedBlok) => (
 							<StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
 						))}
 				</main>
