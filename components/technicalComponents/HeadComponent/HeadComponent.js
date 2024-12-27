@@ -36,7 +36,7 @@ export default class HeadComponent extends Component {
       });
     });
 
-    hotjar.initialize(5252181, 6); // Your Hotjar ID
+    hotjar.initialize(5252181, 6);
   }
 
   render() {
