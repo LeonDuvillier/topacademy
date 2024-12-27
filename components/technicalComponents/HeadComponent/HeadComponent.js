@@ -9,6 +9,7 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+
 import React, { Component } from "react";
 import * as PropTypes from "prop-types";
 import Head from "next/head";
