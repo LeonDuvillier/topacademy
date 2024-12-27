@@ -15,7 +15,6 @@
     "@hotjar/browser": "^1.0.9",
     "@storyblok/react": "^1.0.8",
     "@svgr/webpack": "^6.3.1",
-    "concurrently": "^7.3.0",
     "eslint": "^8.57.1",
     "js-cookie": "^3.0.1",
     "lazysizes": "^5.3.2",
@@ -38,6 +37,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "axios": "^0.21.4",
+    "concurrently": "^9.1.0",
     "eslint": "^8.22.0",
     "sass": "^1.54.8"
   }
