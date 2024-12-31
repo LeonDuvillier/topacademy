@@ -1,42 +1,20 @@
 ﻿@import "../../../styles/colors.scss";
 @import "../../../styles/font-mixins.scss";
 
+
 .item {
   margin: 40px 0;
   cursor: pointer;
-  background-color: $color-grey-light; 
-  border: 1px solid $color-grey-light; 
-  border-radius: 8px;
-  padding: 20px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-
-  &:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-  }
-
   .header {
     margin-bottom: 10px;
   }
-
+  
   .title {
-    @include very-small-title-font($color-primary);
-    font-weight: bold;
-    text-transform: capitalize; 
-    transition: color 0.3s ease; 
+    @include very-small-title-font($color-red-normal);
   }
-
-  .title:hover {
-    color: $color-secondary;
-  }
-
+  
   .shortdescription {
-    @include very-small-title-font($color-grey-dark);
-    font-size: 0.9rem; 
-    line-height: 1.4; 
-    margin-top: 5px;
+    @include very-small-title-font($color-red-normal);
   }
+  
 }
-
-
